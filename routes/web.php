@@ -13,6 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', fn() => view ('pages.home.index'));
-
-Route::get('/posts', fn() => view ('pages.posts.index'));
+Route::get('/', fn() => view ('welcome'));
